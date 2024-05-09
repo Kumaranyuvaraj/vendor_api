@@ -1,0 +1,21 @@
+Vendor Management System with Performance Metrics
+
+Objective
+Develop a Vendor Management System using Django and Django REST Framework. This
+system will handle vendor profiles, track purchase orders, and calculate vendor performance
+metrics.
+
+Requirements
+
+1. python3.10
+2. create the virtual environment and activate it.
+        python3 -m venv venv
+        source venv/bin/activate(Ubuntu) or venv\Scripts\activate(Windows)
+3. pip install djangorestframework,mysqlclient,djangorestframework_simplejwt
+
+Migrate to database
+1.python manage.py makemigrations
+2.python manage.py migrate
+
+Run the server
+1.python manage.py runserver
